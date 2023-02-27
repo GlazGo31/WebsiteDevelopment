@@ -1,0 +1,117 @@
+.dot {
+    z-index: 99999;
+    content: '';
+    opacity: 1;
+    left: 0;
+    top: 0;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    width: vw(15px);
+    height: vw(15px);
+    background: black;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+    transition:opacity 0.3s, color 0.4s;
+
+    .about-text {
+        display: none;
+    }
+    // Modification in Menu-Block - Button
+    &.activeBtnMenuShow {
+        width: vw(120px);
+        height: vw(120px);
+        transition: width 0.5s, height 0.5s;
+        background: white;
+        mix-blend-mode: difference;
+        transform: translate(-50%, -50%);
+    }
+    // Modification in Menu-Block - SocialNetworks
+    &.activeSocialNetworksMenuShow {
+        width: vw(50px);
+        height: vw(50px);
+        transition: width 0.5s, height 0.5s;
+        background: white;
+        mix-blend-mode: difference;
+        transform: translate(-50%, -50%);
+    }
+
+    // Modification in Carousel - Show Cursor
+    &.carouselDragBtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        background-color: #000000;
+        color: white;
+        font-family: 'Neutral Face';
+        font-weight: 400;
+        font-size: vw(20px);
+        line-height: vw(120px);
+    }
+
+    &.white {
+        background: white;
+    }
+
+    &.about-us {
+        width: vw(120px);
+        height: vw(120px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: auto;
+        cursor: pointer;
+
+        .about-text {
+            display: block;
+            font-family: 'Neutral Face';
+            font-weight: 400;
+            font-size: vw(14px);
+            width: vw(120px);
+            line-height: vw(120px);
+            text-align: center;
+            color: white;
+            text-decoration: unset;
+        }
+    }
+}
+
+.cookie {
+    background: black;
+    padding: vw(30px) vw(130px) vw(30px) vw(30px);
+    position: fixed;
+    bottom: vw(40px);
+    right: vw(40px);
+    z-index: 9;
+
+    .text {
+        font-family: 'Neutral Face';
+        font-weight: 400;
+        font-size: vw(14px);
+        line-height: vw(22px);
+        color: #FFFFFF;
+
+        a {
+            color: white;
+        }
+    }
+
+    .close {
+        cursor: pointer;
+        position: absolute;
+        width: vw(16px);
+        height: vw(15px);
+        right: vw(30px);
+        top: vw(30px);
+        background: url(/images/close-cookie.svg) center no-repeat;
+        background-size: vw(16px) vw(15px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dot {
+        display: none !important;
+    }
+}

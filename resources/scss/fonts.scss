@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Neutral Face';
+    src: url('/fonts/NeutralFaceRegular.eot');
+    src: local('Neutral Face'), local('NeutralFaceRegular'),
+    url('/fonts/NeutralFaceRegular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/NeutralFaceRegular.woff2') format('woff2'),
+    url('/fonts/NeutralFaceRegular.woff') format('woff'),
+    url('/fonts/NeutralFaceRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neutral Face';
+    src: url('/fonts/NeutralFaceBold.eot');
+    src: local('Neutral Face Bold'), local('NeutralFaceBold'),
+    url('/fonts/NeutralFaceBold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/NeutralFaceBold.woff2') format('woff2'),
+    url('/fonts/NeutralFaceBold.woff') format('woff'),
+    url('/fonts/NeutralFaceBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mont';
+    src: url('/fonts/Mont-Light.eot');
+    src: local('Mont Light'), local('Mont-Light'),
+    url('/fonts/Mont-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Mont-Light.woff2') format('woff2'),
+    url('/fonts/Mont-Light.woff') format('woff'),
+    url('/fonts/Mont-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Mont';
+    src: url('/fonts/Mont-LightItalic.eot');
+    src: local('Mont Light Italic'), local('Mont-LightItalic'),
+    url('/fonts/Mont-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Mont-LightItalic.woff2') format('woff2'),
+    url('/fonts/Mont-LightItalic.woff') format('woff'),
+    url('/fonts/Mont-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}

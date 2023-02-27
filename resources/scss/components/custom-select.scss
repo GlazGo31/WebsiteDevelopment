@@ -1,0 +1,42 @@
+.customSelect {
+    display: inline-block;
+    margin-right: vw(20px);
+
+    .is-selected {
+        display: none;
+    }
+
+    .custom-select-opener {
+        background: unset;
+        padding: unset;
+    }
+
+    .custom-select-panel {
+        background-color: unset;
+        overflow-y: hidden;
+        transition: unset;
+
+        .custom-select-option:not(.is-selected) {
+            font-family: 'Neutral Face';
+            display: inline-block;
+            border: 1px solid #000000;
+            border-radius: 100px;
+            padding: vw(12px) vw(20px);
+            font-size: vw(12px);
+            line-height: vw(12px);
+            transform: translateY(vw(10px));
+            cursor: pointer;
+
+            &.has-focus {
+                background-color: unset;
+            }
+        }
+    }
+
+    &.is-open {
+        .custom-select-panel {
+            min-height: vw(80px);
+            min-width: vw(80px);
+        }
+    }
+}

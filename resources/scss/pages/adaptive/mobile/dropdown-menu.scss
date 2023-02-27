@@ -1,0 +1,93 @@
+// Section adaptive Mobile Menu-SHOW 'Web-studia'
+@media screen and (max-width: 600px) {
+    .menu {
+        .header {
+            margin: 0 0 !important;
+            width: auto !important;
+        }
+
+        .buttons {
+
+            margin-top: mobile_vh(124px) !important;
+
+            button {
+                .btn-text {
+                    margin-left: mobile_vw(25px) !important;
+                    text-align: left !important;
+                }
+            }
+
+        }
+
+        .social-networks {
+            display: flex !important;
+            flex-flow: column nowrap !important;
+            width: calc(100% - mobile_vw(30px));
+            height: auto !important;
+            left: mobile_vw(40px);
+            top: mobile_vh(488px);
+
+            a {
+                display: block !important;
+                margin-left: 0 !important;
+                font-family: 'Neutral Face' !important;
+                width: 100% !important;
+                font-style: normal !important;
+                font-weight: 400 !important;
+                font-size: mobile_vh(12px) !important;
+                line-height: mobile_vh(12px) !important;
+            }
+
+        }
+
+        .menu__footer {
+            width: auto !important;
+            display: flex;
+            flex-flow: row nowrap;
+            position: absolute !important;
+            justify-content: space-between;
+            margin-left: mobile_vw(40px) !important;
+            top: mobile_vh(760px) !important;
+            left: 0;
+            gap: mobile_vw(120px);
+
+            .rules {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                a {
+                    text-decoration: none !important;
+                    color: #FFFFFF !important;
+                    font-family: 'Neutral Face';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: mobile_vh(12px);
+                    line-height: mobile_vh(12px);
+                }
+            }
+
+            .contacts {
+                margin-right: 0 !important;
+
+                a {
+                    text-decoration: none !important;
+                    display: flex !important;
+                    justify-content: center;
+                    align-items: center;
+                    width: mobile_vw(46px);
+                    height: mobile_vh(26.45px);
+                    color: #FFFFFF !important;
+                    font-family: 'Neutral Face' !important;
+                    font-style: normal !important;
+                    font-weight: 400 !important;
+                    font-size: mobile_vh(9.1722px) !important;
+                    line-height: mobile_vh(10px) !important;
+                    border: 0.76435px solid white !important;
+                    border-radius: mobile_vw(76px) !important;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,248 @@
+@media screen and (max-width: 600px) {
+    .main {
+        .main-photo {
+            margin: 0 auto !important;
+
+
+            #abstraction-mob {
+                width: calc(100% + 30px) !important;
+                height: 300px !important;
+                scale: 1 !important;
+                margin-top: 0 !important;
+            }
+
+            .welcome {
+                position: absolute !important;
+                top: 50% !important;
+                left: 51% !important;
+                font-family: "Neutral Face" !important;
+                font-weight: 400 !important;
+                text-align: center !important;
+                color: white !important;
+                font-size: 1.1666666667vw !important;
+                line-height: 2.1111111111vh !important;
+                transform: translate(-50%, 50%) !important;
+            }
+        }
+
+        h1 {
+            font-size: mobile_vw(38px) !important;
+            line-height: mobile_vh(44px) !important;
+        }
+
+        .contact-us {
+            display: flex !important;
+            justify-content: center !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            gap: mobile_vh(20px) !important;
+            margin-top: mobile_vh(200px) !important;
+
+            button {
+                font-family: 'Neutral Face' !important;
+                font-weight: 400 !important;
+                border-radius: 100px !important;
+                font-size: mobile_vw(12px) !important;
+                line-height: mobile_vh(12px) !important;
+                border: 1px solid black !important;
+                padding: mobile_vh(12px) mobile_vw(20px);
+            }
+
+
+            a {
+                width: mobile_vw(200px) !important;
+                height: auto !important;
+                font-family: 'Mont' !important;
+                font-style: normal !important;
+                font-weight: 600 !important;
+                font-size: mobile_vh(16px) !important;
+                line-height: mobile_vh(20px) !important;
+                text-align: center !important;
+                text-decoration-line: underline !important;
+                color: #000000 !important;
+            }
+        }
+
+        .what-we-do {
+            width: 100% !important;
+            margin: mobile_vh(100px) auto !important;
+            font-size: mobile_vw(20px) !important;
+            line-height: mobile_vh(25px) !important;
+        }
+
+        .additional-photo {
+            width: 100%  !important;
+            height: 300px !important;
+            margin: tablet_vh(150px) auto !important;
+            position: relative !important;
+            top: 0 !important;
+            left: 0 !important;
+
+            img {
+                object-fit: cover !important;
+                display: block !important;
+                width: 100% !important;
+                height: 100% !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+            }
+        }
+
+        .our-promise {
+            margin-top: mobile_vh(30px) !important;
+            margin-right: mobile_vw(15px) !important;
+            width: mobile_vw(269px) !important;
+            font-size: mobile_vw(12px) !important;
+            line-height: mobile_vh(15px) !important;
+        }
+
+        .what-we-are {
+            width: calc(100% - mobile_vw(30px)) !important;
+            margin-top: mobile_vh(100px) !important;
+            margin-left: unset !important;
+            margin-right: mobile_vw(15px) !important;
+            font-size: mobile_vw(24px) !important;
+            line-height: mobile_vh(30px) !important;
+        }
+
+        .our-projects {
+            display: block !important;
+            font-family: 'Neutral Face' !important;
+            font-weight: 400 !important;
+            margin-left: mobile_vw(15px) !important;
+            margin-top: mobile_vh(50px) !important;
+            font-size: mobile_vw(12px) !important;
+            line-height: mobile_vh(12px) !important;
+        }
+
+        .our-works {
+            margin-top: mobile_vh(20px) !important;
+
+            .total {
+                display: none !important;
+            }
+
+            .owl-item {
+                margin-right: mobile_vw(30px) !important;
+            }
+
+            .list .work img {
+                width: mobile_vw(230px) !important;
+                height: mobile_vh(330px) !important;
+            }
+
+            .year {
+                margin-top: mobile_vh(20px) !important;
+            }
+
+            .name {
+                margin-top: mobile_vh(10px) !important;
+            }
+
+            .year, .name {
+                font-size: mobile_vw(12px) !important;
+                line-height: mobile_vh(12px) !important;
+            }
+        }
+
+        .steps-container {
+            margin-top: mobile_vh(100px) !important;
+
+            .steps {
+                    margin-left: unset !important;
+                .step {
+                    &:not(:first-child) {
+                        margin-top: mobile_vh(40px) !important;
+                    }
+
+                    &:hover {
+                        .title {
+                            left: 0 !important;
+                        }
+
+                        img {
+                            display: none !important;
+                        }
+                    }
+
+                    .title {
+                        font-size: mobile_vw(30px) !important;
+                        line-height: mobile_vh(36px) !important;
+                    }
+
+                    .desc {
+                        opacity: 1 !important;
+                        position: static !important;
+                        color: black !important;
+                        margin-top: mobile_vh(10px);
+                        font-size: mobile_vw(12px) !important;
+                        line-height: mobile_vh(15px) !important;
+                    }
+                }
+            }
+        }
+
+        .some-text {
+            width: calc(100% - mobile_vw(30px)) !important;
+            margin-top: mobile_vh(150px) !important;
+            margin-left: mobile_vw(15px) !important;
+            margin-right: mobile_vw(15px) !important;
+            font-size: mobile_vw(20px) !important;
+            line-height: mobile_vh(25px) !important;
+            padding-bottom: mobile_vh(100px) !important;
+        }
+
+        .footer {
+            .mail {
+                font-size: mobile_vw(120px) !important;
+                line-height: mobile_vh(125px) !important;
+            }
+
+            .address {
+                margin-top: mobile_vh(50px) !important;
+            }
+
+            .phone {
+                margin-top: mobile_vh(30px) !important;
+            }
+
+            .email, .telegram {
+                margin-top: mobile_vh(10px) !important;
+            }
+
+            .address, .phone, .email, .telegram {
+                font-size: mobile_vw(10px) !important;
+                line-height: mobile_vh(14px) !important;
+            }
+
+            .copyright {
+                font-size: mobile_vw(10px) !important;
+                line-height: mobile_vh(14px) !important;
+                bottom: mobile_vh(30px) !important;
+            }
+        }
+    }
+
+    .menu {
+        padding: mobile_vh(60px) mobile_vw(15px) mobile_vh(50px) mobile_vw(15px) !important;
+
+        .logotype {
+            img {
+                width: mobile_vw(84px) !important;
+                height: mobile_vh(15px) !important;
+            }
+        }
+
+        .close {
+            font-size: mobile_vw(30px) !important;
+            line-height: mobile_vh(30px) !important;
+        }
+
+        .buttons a {
+            margin-top: mobile_vh(11px) !important;
+            font-size: mobile_vw(38px) !important;
+            line-height: mobile_vh(44px) !important;
+        }
+    }
+}

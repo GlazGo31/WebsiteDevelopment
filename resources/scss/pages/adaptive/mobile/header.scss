@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px) {
+    // Section adaptive Mobile HEADER 'Web-studia'
+    .header {
+        position: unset !important;
+        margin-top: mobile_vh(60px) !important;
+        margin-left: mobile_vw(15px) !important;
+        margin-right: mobile_vw(15px) !important;
+        width: calc(100% - mobile_vw(30px)) !important;
+
+        .logo img {
+            width: mobile_vw(84px) !important;
+            height: mobile_vh(15px) !important;
+            display: flex;
+
+        }
+
+        .lets-talk, .customSelect {
+            display: none !important;
+        }
+
+        .header-part {
+            justify-content: flex-end !important;
+        }
+
+        .btn-menu {
+            font-size: mobile_vw(30px) !important;
+            line-height: mobile_vh(28px) !important;
+            margin-right: 0 !important;
+            margin-top: mobile_vw(1px);
+        }
+    }
+}

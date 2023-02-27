@@ -1,0 +1,187 @@
+@media screen and (max-width: 600px) {
+    // Section adaptive Mobile SERVICES 'Web-studia'
+    .services {
+        margin-left: mobile_vw(15px) !important;
+        margin-right: mobile_vw(15px) !important;
+
+        h1 {
+            padding-top: mobile_vh(161px) !important;
+            font-family: 'Mont' !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            font-size: mobile_vh(12px) !important;
+            line-height: mobile_vh(15px) !important;
+            color: #878787 !important;
+            text-align: left !important;
+        }
+
+        .what-we-do {
+            width: mobile_vw(344px) !important;
+            height: auto !important;
+            margin: mobile_vh(35px) auto 0 auto !important;
+            font-family: 'Neutral Face' !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            font-size: mobile_vh(26px) !important;
+            line-height: mobile_vh(32px) !important;
+
+        }
+
+        .some-text {
+            padding-top: mobile_vh(100px) !important;
+            margin: 0 !important;
+            width: mobile_vw(318px) !important;
+            height: auto !important;
+            font-family: 'Mont' !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            font-size: mobile_vh(12px) !important;
+            line-height: mobile_vh(15px) !important;
+        }
+
+        .list {
+            margin: 0 auto !important;
+            padding-top: mobile_vh(150px) !important;
+
+            .images {
+                display: none !important;
+            }
+
+            .texts {
+                width: mobile_vw(360px) !important;
+                margin: 0 auto !important;
+                height: auto !important;
+                display: flex !important;
+                flex-flow: column nowrap !important;
+                justify-content: center !important;
+                align-items: center !important;
+                gap: mobile_vh(104px) !important;
+
+                .text {
+                    margin: 0 0 0 0 !important;
+
+                    .development__images {
+                        width: mobile_vw(360px) !important;
+                        height: mobile_vh(360px) !important;
+                        position: relative !important;
+
+                        img {
+                            width: 100% !important;
+                            object-fit: cover !important;
+                            height: 100% !important;
+                            position: absolute !important;
+                            top: 0 !important;
+                            left: 0 !important;
+                        }
+                    }
+
+                    .text__service {
+                        padding-top: mobile_vh(30px);
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: mobile_vh(12px);
+                        line-height: mobile_vh(15px);
+                        text-align: center;
+                        color: #878787;
+                    }
+
+                    .text__title {
+                        width: mobile_vw(320px) !important;
+                        height: auto !important;
+                        margin: 0 auto !important;
+                        padding-top: mobile_vh(20px);
+                        font-family: 'Neutral Face';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: mobile_vh(38px);
+                        line-height: mobile_vh(44px);
+                        color: #000000
+                    }
+
+                    .text__desc {
+                        width: mobile_vw(284px);
+                        height: auto;
+                        margin: 0 auto;
+                        padding-top: mobile_vh(10px);
+                        font-family: 'Mont';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: mobile_vh(12px);
+                        line-height: mobile_vh(15px);
+                        text-align: center;
+                        color: #878787
+                    }
+
+                    .watch-all {
+                        width: mobile_vw(200px);
+                        height: auto;
+                        padding: mobile_vh(18px) mobile_vw(30px) !important;
+                        display: block;
+                        text-decoration: none;
+                        margin: mobile_vh(30px) auto 0 auto !important;
+                        border: 1px solid #878787;
+                        border-radius: mobile_vw(100px);
+                        font-family: 'Neutral Face';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: mobile_vh(12px);
+                        line-height: mobile_vh(12px);
+                        color: #000000
+                    }
+                }
+            }
+
+        }
+
+        .steps-title {
+            margin: mobile_vh(154px) auto 0 0 !important;
+            position: unset !important;
+            width: mobile_vw(102px) !important;
+            height: auto !important;
+            font-family: 'Mont' !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            font-size: mobile_vh(12px) !important;
+            line-height: mobile_vh(15px) !important;
+            color: #878787
+        }
+
+        .steps {
+            margin: mobile_vh(50px) 0 0 0 !important;
+            width: mobile_vw(360px) !important;
+            height: mobile_vh(360px) !important;
+
+            .step {
+
+                padding-left: mobile_vw(20px) !important;
+
+                .title {
+                    width: mobile_vw(300px) !important;
+                    height: mobile_vh(31px) !important;
+                    font-family: 'Mont' !important;
+                    font-style: normal !important;
+                    font-weight: 500 !important;
+                    font-size: mobile_vh(24px) !important;
+                    line-height: mobile_vh(31px) !important;
+                    color: #000000 !important;
+                }
+
+                .desc {
+                    width: mobile_vw(291px) !important;
+                    height: mobile_vw(45px) !important;
+                    font-family: 'Mont' !important;
+                    font-style: normal !important;
+                    font-weight: 400 !important;
+                    font-size: mobile_vh(12px) !important;
+                    line-height: mobile_vw(15px) !important;
+                    color: #878787 !important;
+                }
+            }
+
+
+        }
+
+
+    }
+}

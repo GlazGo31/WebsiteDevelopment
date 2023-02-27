@@ -1,0 +1,140 @@
+.contacts {
+    h1 {
+        text-align: center;
+        padding-top: 365px;
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: vw(22px);
+        line-height: vh(28px);
+        color: #878787;
+    }
+
+    .how-to-help {
+        margin-top: vh(50px);
+        font-family: 'Neutral Face';
+        font-weight: 400;
+        font-size: vw(100px);
+        line-height: vh(120px);
+        text-align: center;
+        color: #000000;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .content {
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 65%;
+    }
+
+    .what-you-need {
+        margin-top: vh(591px);
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: vw(22px);
+        line-height: vh(28px);
+        color: #878787;
+    }
+
+    .list {
+        margin-top: vh(50px);
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: vh(-25px);
+
+        .item {
+            margin-top: vh(16px);
+            margin-right: vw(25px);
+
+            .btn {
+                font-size: vw(18px);
+                line-height: vh(19px);
+
+                .btn-text {
+                    padding: vh(24px) vw(40px);
+                }
+            }
+        }
+    }
+
+    .form {
+        margin-top: vh(160px);
+
+        .group {
+            margin-top: vh(50px);
+            display: flex;
+
+            .field {
+                flex: 1;
+                border-bottom: 1px solid #CBCBCB;
+
+                &.mr {
+                    margin-right: vw(50px);
+                }
+
+                &.ml {
+                    margin-left: vw(50px);
+                    position: relative;
+                }
+
+                .field_error-massage {
+                    position: absolute;
+                    top: calc(100% + 5px);
+                    left: 0;
+                    color: #d57676;
+                }
+            }
+
+            input {
+                padding: vh(10px) vw(10px) vh(10px) vw(10px);
+                font-family: 'Mont';
+                font-weight: 400;
+                font-size: vw(22px);
+                line-height: vh(28px);
+                color: #878787;
+                width: 100%;
+            }
+        }
+
+    }
+
+    .budget .title {
+        margin-top: vh(140px);
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: vw(22px);
+        line-height: vh(28px);
+        color: #878787;
+    }
+
+    .captcha {
+        margin-top: vh(100px);
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: vw(14px);
+        line-height: vh(18px);
+        color: #878787;
+    }
+
+    .send {
+        margin-top: vh(120px);
+        margin-bottom: vh(300px);
+        background: #000000;
+        color: white;
+        font-size: vw(18px);
+        line-height: vh(19px);
+
+        .btn-text {
+            padding: vh(20px) vw(50px);
+        }
+    }
+
+    .selected {
+        background-color: black;
+
+        .btn-text-inner {
+            color: #FFFFFF !important;
+        }
+    }
+}

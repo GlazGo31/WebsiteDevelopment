@@ -1,0 +1,121 @@
+.menu {
+    pointer-events: none;
+    user-select: none;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: vw(40px);
+    z-index: 9999;
+    transition: opacity 0.3s;
+
+    .btn {
+        border: unset !important;
+    }
+
+    .background {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 0 0 100%;
+        width: 10px;
+        height: 10px;
+        background: black;
+    }
+
+    &.show {
+        pointer-events: auto !important;
+        user-select: auto !important;
+        opacity: 1;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        .logotype {
+            img {
+                width: vw(178px);
+                height: vh(33px);
+                filter: invert(1);
+            }
+        }
+
+        .close {
+            font-size: vw(56px);
+            line-height: vw(58px);
+            color: #FFFFFF !important;
+        }
+    }
+
+    .social-networks {
+        right: vw(394px);
+        position: absolute;
+        bottom: vh(270px);
+
+        a {
+            margin-top: vh(10px);
+            display: block;
+            font-family: 'Neutral Face';
+            font-weight: 400;
+            font-size: vw(14px);
+            line-height: vw(15px);
+            color: #FFFFFF;
+            text-decoration: unset;
+        }
+    }
+
+    .btn .btn-text {
+        margin-left: vw(250px);
+        justify-content: unset !important;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        margin-top: vh(223px);
+
+        a {
+            //margin-top: vh(10px);
+            font-family: 'Neutral Face';
+            font-weight: 400;
+            font-size: vw(100px);
+            line-height: vh(104px);
+            color: #FFFFFF;
+            text-decoration: unset;
+        }
+
+        .btn-text {
+            padding: 0;
+        }
+    }
+
+    .footer {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        bottom: vw(40px);
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: calc(100% - vw(80px));
+
+        .rules a {
+            margin-right: vw(30px);
+        }
+
+        .contacts a {
+            margin-left: vw(30px);
+        }
+
+        a {
+            text-decoration: unset;
+            font-family: 'Neutral Face';
+            font-weight: 400;
+            font-size: vw(14px);
+            line-height: vw(18px);
+            color: #FFFFFF;
+        }
+    }
+}

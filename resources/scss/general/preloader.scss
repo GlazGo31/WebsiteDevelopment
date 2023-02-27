@@ -1,0 +1,75 @@
+.preloader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    z-index: 99999;
+
+    &.show {
+        display: block;
+    }
+
+    .loading {
+        width: 100%;
+        height: 6px;
+        background: #BEBEBE;
+
+        .loaded {
+            height: 6px;
+            background: black;
+            transition: linear 300ms;
+        }
+    }
+
+    .image {
+        margin-top: vh(100px);
+        margin-left: vw(40px);
+
+        img {
+            width: vw(358px);
+            height: vh(500px);
+        }
+    }
+
+    .percent {
+        position: absolute;
+        right: vw(200px);
+        bottom: 0;
+        font-family: 'Neutral Face';
+        font-weight: 400;
+        font-size: vw(600px);
+        line-height: vw(525px);
+        color: #BEBEBE;
+    }
+
+    .footer {
+        position: absolute;
+        left: 50%;
+        bottom: vh(50px);
+        transform: translate(-50%, 0);
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .slogan {
+            font-family: 'Neutral Face';
+            font-weight: 400;
+            font-size: vw(18px);
+            line-height: 120%;
+            color: #000000;
+        }
+
+        .agency {
+            margin-top: vh(30px);
+            font-family: 'Neutral Face';
+            font-weight: 400;
+            font-size: vw(14px);
+            line-height: vw(15px);
+            color: #000000;
+        }
+    }
+}

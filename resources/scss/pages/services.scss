@@ -1,0 +1,159 @@
+.services {
+    h1 {
+        text-align: center;
+        padding-top: 365px;
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: vw(22px);
+        line-height: vh(28px);
+        color: #878787;
+    }
+
+    .what-we-do {
+        margin-top: vh(50px);
+        font-family: 'Neutral Face';
+        font-weight: 400;
+        font-size: vw(100px);
+        line-height: vh(120px);
+        text-align: center;
+        color: #000000;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .some-text {
+        margin-top: vh(575px);
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: vw(22px);
+        line-height: vh(28px);
+        color: #878787;
+        margin-right: vw(40px);
+        margin-left: auto;
+        width: 31%;
+    }
+
+    .list {
+        padding-top: vh(410px);
+        margin-left: vw(40px);
+        margin-right: vw(40px);
+
+        display: flex;
+
+        .images {
+            display: inline-block;
+            position: relative;
+            width: vw(400px);
+            height: vh(540px);
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            &.right {
+                width: vw(400px);
+                height: vh(220px);
+            }
+        }
+
+        .texts {
+            margin-left: vw(100px);
+            margin-right: vw(100px);
+            display: inline-block;
+            width: vw(820px);
+
+            .text {
+                text-align: center;
+
+                &:not(:first-child) {
+                    margin-top: vh(500px);
+                }
+
+                .title {
+                    font-family: 'Neutral Face';
+                    font-weight: 400;
+                    font-size: vw(90px);
+                    line-height: vh(90px);
+                    color: #000000;
+                }
+
+                .desc {
+                    margin-top: vh(30px);
+                    font-family: 'Mont';
+                    font-weight: 400;
+                    font-size: vw(22px);
+                    line-height: vh(28px);
+                    color: #878787;
+                }
+            }
+        }
+
+        .watch-all {
+            display: inline-block;
+            margin-top: vh(50px);
+            padding: vh(24px) vw(40px) vh(24px) vw(40px);
+            border: 1px solid #000000;
+            border-radius: 100px;
+
+            font-family: 'Neutral Face';
+            font-weight: 400;
+            font-size: vw(18px);
+            line-height: vh(19px);
+            color: #000000;
+            text-decoration: unset;
+        }
+    }
+
+    .steps-title {
+        position: relative;
+        margin-top: vh(600px);
+        margin-left: vw(40px);
+        top: vh(20px);
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: vw(22px);
+        line-height: vh(28px);
+        color: #878787;
+    }
+
+    .steps {
+        margin-left: auto;
+        margin-right: auto;
+        width: vw(700px);
+        padding-bottom: vh(300px);
+
+        .step {
+            border-top: 1px solid #CBCBCB;
+            border-bottom: 1px solid #CBCBCB;
+            padding-top: vh(40px);
+            padding-bottom: vh(40px);
+
+            .title {
+                font-family: 'Mont';
+                font-weight: 400;
+                font-size: vw(42px);
+                line-height: vh(54px);
+                color: #000000;
+            }
+
+            .desc {
+                margin-top: vh(20px);
+                font-family: 'Mont';
+                font-weight: 400;
+                font-size: vw(22px);
+                line-height: vh(28px);
+                color: #878787;
+
+                a {
+                    font-weight: 600;
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+}

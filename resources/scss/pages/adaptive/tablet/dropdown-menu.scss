@@ -1,0 +1,125 @@
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .menu {
+        .header {
+            margin: tablet_vh(45px) 0 0 0 !important;
+
+            .logotype {
+                width: tablet_vw(133px) !important;
+                height: tablet_vh(25px) !important;
+                a {
+                    img {
+                        width: 100% !important;
+                        height: 100% !important;
+                    }
+                }
+            }
+
+            .btn {
+                font-family: 'Neutral Face' !important;
+                font-style: normal !important;
+                font-weight: 400 !important;
+                font-size: tablet_vh(36px) !important;
+                line-height: tablet_vh(37px) !important;
+            }
+        }
+
+        .buttons {
+            gap: tablet_vh(20px) !important;
+            height: auto !important;
+            margin-top: tablet_vh(350px) !important;
+
+            button {
+                display: block !important;
+                height: auto !important;
+
+                .btn-text {
+                    height: auto !important;
+                    margin-left: tablet_vw(40px) !important;
+                    text-align: left !important;
+
+                    a {
+                        font-family: 'Neutral Face' !important;
+                        font-style: normal !important;
+                        font-weight: 400 !important;
+                        font-size: tablet_vh(54px) !important;
+                        line-height: tablet_vh(52px) !important;
+                        display: block !important;
+                        height:  auto !important;
+                    }
+                }
+            }
+
+        }
+
+        .social-networks {
+            display: flex !important;
+            flex-flow: column nowrap !important;
+            width: calc(100% - tablet_vw(30px));
+            height: auto !important;
+            left: tablet_vw(640px);
+            top: tablet_vh(355px);
+
+            a {
+                display: block !important;
+                margin-left: 0 !important;
+                font-family: 'Neutral Face' !important;
+                width: 100% !important;
+                font-style: normal !important;
+                font-weight: 400 !important;
+                font-size: tablet_vh(14px) !important;
+                line-height: tablet_vh(14px) !important;
+            }
+
+        }
+
+        .menu__footer {
+            width: calc(100% - tablet_vw(79px)) !important;
+            display: flex;
+            flex-flow: row nowrap;
+            position: absolute !important;
+            justify-content: space-between;
+            margin-left: tablet_vw(60px) !important;
+            top: 90vh !important;
+            left: 0;
+            gap: tablet_vw(120px);
+
+            .rules {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                a {
+                    text-decoration: none !important;
+                    color: #FFFFFF !important;
+                    font-family: 'Neutral Face';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: tablet_vh(14px);
+                    line-height: tablet_vh(14px);
+                }
+            }
+
+            .contacts {
+                margin-right: tablet_vw(101px) !important;
+                width: tablet_vw(80px) !important;
+                height: tablet_vh(46.45px) !important;
+                a {
+                    text-decoration: none !important;
+                    display: flex !important;
+                    justify-content: center;
+                    align-items: center;
+                    padding: tablet_vw(14px) tablet_vw(21px);
+                    color: #FFFFFF !important;
+                    font-family: 'Neutral Face' !important;
+                    font-style: normal !important;
+                    font-weight: 400 !important;
+                    font-size: tablet_vh(11.1722px) !important;
+                    line-height: tablet_vh(14px) !important;
+                    border: 0.76435px solid white !important;
+                    border-radius: tablet_vw(99px) !important;
+                }
+            }
+        }
+
+    }
+}

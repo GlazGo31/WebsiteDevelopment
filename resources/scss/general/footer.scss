@@ -1,0 +1,55 @@
+[data-scroll-container] .footer {
+    position: relative;
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a, .copyright {
+        font-family: 'Neutral Face';
+        font-weight: 400;
+        font-size: vw(16px);
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: unset;
+    }
+
+    .mail {
+        position: relative;
+        font-family: 'Neutral Face';
+        font-weight: 400;
+        font-size: vw(248px);
+        color: #FFFFFF;
+
+        &:hover {
+            color: #8C8C8C;
+        }
+    }
+
+    a {
+        display: block;
+    }
+
+    .address {
+        margin-top: vh(100px);
+    }
+
+    .phone {
+        margin-top: vh(20px);
+    }
+
+    .telegram, .email {
+        margin-top: vh(8px);
+    }
+
+    .copyright {
+        position: absolute;
+        bottom: vw(30px);
+    }
+}

@@ -1,0 +1,129 @@
+.about-us {
+    .little-text {
+        padding-top: vh(366px);
+
+        text-align: center;
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: vw(22px);
+        line-height: vh(28px);
+        color: #878787;
+    }
+
+    h1 {
+        margin-top: vh(50px);
+
+        font-family: 'Neutral Face';
+        font-weight: 400;
+        font-size: vw(100px);
+        line-height: vh(120px);
+        text-align: center;
+        color: #000000;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .our-photo {
+        margin-top: vh(315px);
+
+        width: 100%;
+        height: auto;
+    }
+
+    .some-text {
+        margin-top: vh(200px);
+
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: vw(22px);
+        color: #878787;
+        width: 31%;
+        margin-left: auto;
+        margin-right: auto;
+
+        &.left {
+            margin-left: vw(40px);
+        }
+    }
+
+    .people {
+        position: relative;
+        padding-top: vh(300px);
+        height: 200vh;
+
+        .desc {
+            position: absolute;
+            font-family: "Neutral Face";
+            font-weight: 400;
+            font-size: 5.2083333333vw;
+            line-height: 11.1111111111vh;
+            top: vh(350px);
+            left: 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        .name {
+            margin-top: vh(30px);
+
+            font-family: 'Neutral Face';
+            font-weight: 400;
+            font-size: vw(18px);
+            line-height: vh(19px);
+        }
+
+        .role {
+            margin-top: vh(10px);
+
+            font-family: 'Neutral Face';
+            font-weight: 400;
+            font-size: vw(18px);
+            line-height: vh(19px);
+            color: #B5B5B5;
+        }
+
+        .andrew {
+            margin-left: vw(40px);
+
+            width: vw(594px);
+            height: vh(900px);
+        }
+
+        .ilya {
+            margin-right: vw(40px);
+            margin-left: auto;
+            width: vw(480px);
+            height: vh(640px);
+            position: relative;
+            top: -500px;
+        }
+
+        .vlad {
+            width: vw(460px);
+            height: vh(760px);
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: -400px;
+        }
+    }
+
+    .philosophy {
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: vw(22px);
+        line-height: vh(28px);
+        color: #878787;
+        text-align: center;
+    }
+
+    .people-to-people {
+        margin-top: vh(50px);
+
+        font-family: 'Neutral Face';
+        font-weight: 400;
+        font-size: vw(100px);
+        line-height: vh(120px);
+        text-align: center;
+    }
+}

@@ -1,0 +1,111 @@
+@media screen and (max-width: 600px) {
+    // Section adaptive Mobile PROJECT 'Web-studia'
+    .projects {
+        margin: mobile_vh(155px) mobile_vw(15px) 0 mobile_vw(15px);
+
+        .service {
+            font-family: 'Mont' !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            font-size: mobile_vw(12px) !important;
+            line-height: mobile_vh(15px) !important;
+            color: #878787 !important;
+        }
+
+        h1 {
+            display: none !important;
+        }
+
+        .know-us {
+            margin: 0 0 0 0 !important;
+            width: mobile_vw(360px) !important;
+            height: auto !important;
+            font-family: 'Neutral Face' !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            font-size: mobile_vw(26px) !important;
+            line-height: mobile_vh(32px) !important;
+            text-align: left !important;
+            padding-top: mobile_vh(30px) !important;
+        }
+
+        .list {
+            padding-top: mobile_vh(100px) !important;
+            margin: 0 0 0 0 !important;
+            flex-flow: column nowrap;
+
+            .list_right {
+                .item:nth-child(2) {
+                    padding-top: mobile_vh(100px) !important;
+                }
+                .item:last-child {
+                    padding-top: mobile_vh(100px) !important;
+                }
+            }
+
+            .list_left {
+                .item {
+                    padding-top: mobile_vh(100px) !important;
+                }
+            }
+
+            .item {
+                width: mobile_vw(360px) !important;
+                height: auto !important;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+
+                .item__photo {
+                    width: mobile_vw(360px) !important;
+                    height: mobile_vh(360px) !important;
+                    position: relative !important;
+
+                    img {
+                        width: 100% !important;
+                        object-fit: cover !important;
+                        height: 100% !important;
+                        position: absolute !important;
+                        top: 0 !important;
+                        left: 0 !important;
+                    }
+                }
+
+                .item_title_name {
+                    margin-top: mobile_vh(20px) !important;
+                    font-family: 'Mont' !important;
+                    font-style: normal !important;
+                    font-weight: 600 !important;
+                    font-size: mobile_vw(24px) !important;
+                    line-height: mobile_vh(30px) !important;
+                    color: #000000 !important;
+                }
+
+                .item_subtitle_name {
+                    margin-top: mobile_vh(10px) !important;
+                    font-family: 'Mont' !important;
+                    font-style: normal !important;
+                    font-weight: 400 !important;
+                    font-size: mobile_vw(12px) !important;
+                    line-height: mobile_vh(15px) !important;
+                    text-align: center !important;
+                    color: #878787 !important;
+                }
+
+                .item_btn {
+                    margin-top: mobile_vh(10px) !important;
+                    border-bottom: 1px solid black !important;
+                    font-family: 'Mont' !important;
+                    font-style: normal !important;
+                    font-weight: 600 !important;
+                    font-size: mobile_vw(12px) !important;
+                    line-height: mobile_vh(15px) !important;
+                    text-align: center !important;
+                    color: #000000 !important;
+                }
+            }
+
+        }
+    }
+}

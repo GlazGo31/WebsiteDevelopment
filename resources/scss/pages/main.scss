@@ -1,0 +1,281 @@
+.main {
+    margin-right: vw(39px);
+    margin-left: vw(39px);
+    h1 {
+        position: absolute;
+        top: calc(vh(330px) + vh(60px));
+        font-family: 'Neutral Face';
+        font-size: vw(100px);
+        font-weight: 400;
+        text-align: center;
+        color: #000000;
+        line-height: vh(120px);
+    }
+
+    .content {
+        position: relative;
+
+        .main-photo {
+            position: relative;
+
+            .abstraction {
+                width: 100vw !important;
+                height: 100vh !important;
+                margin-top: 75vh;
+                scale: 1.5;
+            }
+
+            .welcome {
+                position: absolute;
+                top: 50%;
+                left: 51%;
+                font-family: "Neutral Face";
+                font-weight: 400;
+                text-align: center;
+                color: white;
+                font-size: 3.1666666667vw;
+                line-height: 11.1111111111vh;
+                transform: translate(-50%, 250%);
+            }
+        }
+
+        .contact-us {
+            display: none;
+        }
+
+        .what-we-do {
+            width: 65%;
+            margin-top: vh(250px);
+            margin-left: vw(40px);
+            font-family: 'Mont';
+            font-weight: 400;
+            font-size: vw(42px);
+            line-height: vw(54px);
+            color: #000000;
+        }
+
+        .additional-photo {
+            width: vw(800px) ;
+            height: vh(430px) ;
+            margin: vh(150px) 0 0 auto ;
+            overflow: hidden ;
+            position: relative ;
+            top: 0 ;
+            left: 0 ;
+
+            img {
+
+                display: block !important;
+                width: 100% !important;
+                height: 100% !important;
+                position: absolute !important;
+                overflow: hidden !important;
+                top: 0 !important;
+                left: 0 !important;
+                transition: transform .5s !important;
+
+                &:hover {
+                    transform: scale(1.1) !important;
+                }
+            }
+        }
+
+        .our-promise {
+            margin-top: vh(200px);
+            font-family: 'Mont';
+            font-weight: 400;
+            font-size: vw(22px);
+            line-height: vw(28px);
+            color: #000000;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .what-we-are {
+            margin-left: vw(40px);
+            margin-top: vh(300px);
+            font-family: "Mont";
+            font-weight: 400;
+            font-size: vw(64px);
+            color: #000000;
+            width: 90%;
+            line-height: vw(72px);
+        }
+
+        .our-projects {
+            display: none;
+        }
+
+        .our-works {
+            margin-top: vh(100px);
+
+            display: flex;
+
+            .total {
+                position: relative;
+                margin-left: vw(40px);
+                flex: 1;
+
+                .control {
+                    position: absolute;
+                    bottom: vw(100px);
+                    left: 0;
+
+                    .pages {
+                        font-family: 'Neutral Face';
+                        font-weight: 400;
+                        font-size: vw(12px);
+                    }
+
+                    .arrows {
+                        margin-top: vh(20px);
+                        display: flex;
+
+                        .arrow {
+                            transition: filter .3s;
+
+                            &.right {
+                                rotate: 180deg;
+                            }
+
+                            &.white {
+                                filter: invert(1);
+                            }
+                        }
+
+                        .btn {
+                            margin-right: vw(30px);
+                        }
+                    }
+                }
+            }
+
+            .list {
+                margin-right: vw(40px);
+                overflow: hidden;
+                flex: 2;
+
+                display: flex;
+                justify-content: space-between;
+
+                .owl-nav {
+                    display: none;
+                }
+
+                .work {
+                    text-decoration: unset;
+                    color: #1c1b1b;
+                    cursor: pointer;
+                    flex: 1;
+
+                    img {
+                        width: vw(594px);
+                        height: vw(732px);
+                    }
+
+                    .year, .name {
+                        font-family: 'Neutral Face';
+                        font-weight: 400;
+                        font-size: vw(18px);
+                    }
+
+                    .year {
+                        margin-top: vh(30px);
+                        font-weight: bold;
+                    }
+
+                    .name {
+                        margin-top: vh(10px);
+                    }
+
+                    &:not(:last-child) {
+                        margin-right: vw(30px);
+                    }
+                }
+            }
+        }
+
+        .steps-container {
+            display: flex;
+            margin-top: vh(300px);
+            justify-content: space-between;
+            position: relative;
+
+            .steps {
+                margin-left: vw(40px);
+                position: relative;
+
+                .step {
+                    cursor: pointer;
+                    margin-top: vh(20px);
+
+                    .title {
+                        position: relative;
+                        left: 0;
+                        transition: linear 300ms;
+                        font-family: 'Neutral Face';
+                        font-weight: 400;
+                        font-size: vw(100px);
+                        line-height: vw(104px);
+                        color: #000000;
+                    }
+
+                    .desc {
+                        opacity: 0;
+                        position: absolute;
+                        transition: 300ms ease-out;
+                        font-family: 'Mont';
+                        font-weight: 400;
+                        font-size: vw(22px);
+                        line-height: 120%;
+                        color: #000000;
+                        margin-right: vw(154px);
+                        right: vw(-1050px);
+                        top: vw(30px);
+                        width: 60%;
+                    }
+
+                    img {
+                        opacity: 0;
+                        position: absolute;
+                        left: vw(624px);
+                        top: vw(200px);
+                        width: vw(550px);
+                        height: vw(750px);
+                        z-index: 1;
+                    }
+
+                    &:hover {
+
+                        .title {
+                            left: 3.125vw;
+                        }
+
+                        img {
+                            animation: PUSH_TOP ease-out forwards 0.3s;
+                        }
+
+                        .desc {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+        .some-text {
+            margin-top: vh(692px);
+            font-family: 'Mont';
+            font-weight: 400;
+            font-size: vw(42px);
+            line-height: vw(50px);
+            color: #000000;
+            width: 53%;
+            margin-right: vw(238px);
+            margin-left: auto;
+            padding-bottom: vw(200px);
+        }
+    }
+
+}

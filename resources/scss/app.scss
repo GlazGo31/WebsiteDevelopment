@@ -1,0 +1,63 @@
+@import "functions";
+@import "reset";
+@import "fonts";
+@import "animations";
+
+@import "pages/main";
+//mobile
+@import "pages/adaptive/mobile/about-us";
+@import "pages/adaptive/mobile/contacts";
+@import "pages/adaptive/mobile/cookie";
+@import "pages/adaptive/mobile/dropdown-menu";
+@import "pages/adaptive/mobile/footer";
+@import "pages/adaptive/mobile/header";
+@import "pages/adaptive/mobile/main-menu";
+@import "pages/adaptive/mobile/project";
+@import "pages/adaptive/mobile/services";
+//tablet
+//@import "pages/adaptive/tablet/about-us";
+//@import "pages/adaptive/tablet/contacts";
+//@import "pages/adaptive/tablet/cookie";
+//@import "pages/adaptive/tablet/dropdown-menu";
+//@import "pages/adaptive/tablet/footer";
+//@import "pages/adaptive/tablet/header";
+//@import "pages/adaptive/tablet/project";
+//@import "pages/adaptive/tablet/services";
+//@import "pages/adaptive/tablet/main";
+
+
+@import "pages/desktop";
+@import "pages/about-us";
+@import "pages/services";
+@import "pages/contacts";
+@import "pages/projects";
+
+@import "general/menu";
+@import "general/preloader";
+@import "general/components";
+@import "general/header";
+@import "general/footer";
+
+@import "components/custom-select";
+
+@import "/node_modules/locomotive-scroll/dist/locomotive-scroll.css";
+@import "/node_modules/owl.carousel/dist/assets/owl.carousel.css";
+@import "/node_modules/custom-select/build/custom-select.css";
+
+body{
+    position: relative;
+    height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+.fullscreen {
+    height: 110vh;
+
+    &.center {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

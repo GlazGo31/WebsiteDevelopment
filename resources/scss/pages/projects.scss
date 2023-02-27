@@ -1,0 +1,48 @@
+.projects {
+    h1 {
+        text-align: center;
+        padding-top: 365px;
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: vw(22px);
+        line-height: vh(28px);
+        color: #878787;
+    }
+
+    .know-us {
+        margin-top: vh(50px);
+        font-family: 'Neutral Face';
+        font-weight: 400;
+        font-size: vw(100px);
+        line-height: vh(120px);
+        text-align: center;
+        color: #000000;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .list {
+        margin-top: vh(480px);
+        margin-bottom: vh(300px);
+        margin-left: vw(40px);
+        margin-right: vw(40px);
+
+        display: flex;
+
+        .left {
+            margin-top: vh(200px);
+            margin-right: vw(40px);
+        }
+
+        .right {
+            margin-left: vw(40px);
+        }
+
+        .item {
+            img {
+                width: vw(880px);
+                height: vh(880px);
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .header {
+        position: fixed !important;
+        width: calc(100% - tablet_vw(30px)) !important;
+        margin-top: tablet_vh(45px) !important;
+        margin-left: tablet_vw(15px)!important;
+        margin-right: tablet_vw(15px) !important;
+
+        .lets-talk, .customSelect {
+            display: none !important;
+        }
+
+        .logo img {
+            width: tablet_vw(133px) !important;
+            height: tablet_vh(24.83px) !important;
+            display: flex !important;
+
+        }
+
+        .btn-menu {
+            width: tablet_vw(120px) !important;
+            height: tablet_vh(37px) !important;
+            font-family: 'Neutral Face' !important;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            font-size:  tablet_vw(36px) !important;
+            line-height: tablet_vw(37px) !important;
+        }
+    }
+}

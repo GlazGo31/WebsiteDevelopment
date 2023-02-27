@@ -1,0 +1,52 @@
+[data-scroll-container] .header {
+    margin-top: vh(40px);
+    margin-left: vw(40px);
+    margin-right: vw(40px);
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - vw(80px));
+    z-index: 1;
+
+    .logo {
+        position: relative;
+        flex: 1;
+
+        img {
+            transition: filter 0.3s;
+            width: vw(178px);
+            height: vh(33px);
+        }
+    }
+
+    .buttons {
+        button {
+            vertical-align:top;
+        }
+
+        .language {
+            margin-right: vw(20px);
+        }
+
+        .lets-talk {
+            margin-right: vw(50px);
+        }
+    }
+
+    &.white {
+        img {
+            filter: invert(1);
+        }
+
+        .btn-click {
+            border: 1px solid white !important;
+        }
+
+        .btn-text-inner {
+            color: white !important;
+        }
+    }
+}
